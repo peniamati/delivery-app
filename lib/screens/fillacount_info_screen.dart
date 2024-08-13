@@ -129,7 +129,7 @@ class _FillAcountInfoScreenState extends State<FillAcountInfoScreen> {
                 Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => const HomeScreen(),
+                      builder: (context) => HomeScreen(),
                     ));
               },
               isDisabled: firstNameText.isEmpty ||
